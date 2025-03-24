@@ -1,0 +1,2 @@
+CREATE DATABASE foy3;
+GO

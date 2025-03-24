@@ -1,0 +1,1 @@
+select birim_ad, count(calisan_birim_id) from birimler INNER JOIN calisanlar on birimler.birim_id = calisanlar.calisan_birim_id group by birim_ad

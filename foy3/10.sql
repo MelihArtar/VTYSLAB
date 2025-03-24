@@ -1,0 +1,1 @@
+select c.ad, c.soyad, c.maas from calisanlar c where c.maas = (select max(maas) from calisanlar where calisan_birim_id = c.calisan_birim_id)

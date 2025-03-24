@@ -1,0 +1,1 @@
+select  ad, soyad, maas from calisanlar where maas >= All (select maas from calisanlar)

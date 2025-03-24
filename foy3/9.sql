@@ -1,0 +1,1 @@
+select ad, soyad, unvan_calisan from unvan left join calisanlar on unvan.unvan_calisan_id = calisanlar.calisan_id where unvan_calisan in ('Yönetici', 'Müdür')

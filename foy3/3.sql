@@ -1,0 +1,1 @@
+select ad, soyad, maas from calisanlar where calisan_birim_id = Any (select birim_id from birimler where birim_ad IN ('Yazýlým','Donaným'))
